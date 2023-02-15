@@ -9,6 +9,20 @@
 
 ## Description
 
+## Known Bugs
+
+## Technologies used
+1. Mongodb
+2. Node.js
+3. Github
+4. Javascript
+
+## Support and Contact details
+
+## Github pages
+
+
+
 
 ### License
 
