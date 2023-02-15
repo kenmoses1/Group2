@@ -12,7 +12,7 @@
 
 ### License
 
-*This project uses MIT license.*
+*This project uses ISC license.*
 
 Copyright (c) 2023 **YOUR NAME HERE**
 
