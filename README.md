@@ -18,7 +18,7 @@
 4. Javascript
 
 ## Support and Contact details
-
+### for additional details, please contact pkariuki@safaricom.co.ke
 ## Github pages
 
 
