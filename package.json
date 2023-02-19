@@ -1,3 +1,19 @@
-"scripts": {
-  "start": "nodemon index.js"
-},
+{
+  "name": "group2",
+  "version": "1.0.0",
+  "description": "group2 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rugendo/Group2.git"
+  },
+  "author": "group2 members",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rugendo/Group2/issues"
+  },
+  "homepage": "https://github.com/rugendo/Group2#readme"
+}
