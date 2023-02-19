@@ -1,6 +1,7 @@
 
 # Group2 project
-### The project entails working with nodejs,connecting the server to cloud,creating routes, mongodb through the collabolation of team members on github.
+### The project entails working with nodejs,connecting the server to cloud,creating routes, mongodb compass for database creation 
+## through the collabolation of team members on github.
 
 ## Authors
 1. Moses Ken
