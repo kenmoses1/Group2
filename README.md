@@ -10,7 +10,7 @@
 4. Patrick Kariuki
 
 ## Description
-### We intend to create a database using mongodb and nodejs. Then we deploy to the cloud using render. User shoud be able to send request to the database therough the routers ion our system and get results according to the request url.
+### We intend to create a database using mongodb and nodejs. Then we deploy to the cloud using render. User shoud be able to send request to the database through the routers in our system and get results according to the request url.
 
 ## Known Bugs
 ### No known bugs
