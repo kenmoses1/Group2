@@ -20,6 +20,7 @@
 4. Javascript
 5. Express
 6. nodem
+7. dotenv
 ## Support and Contact details
 ### for additional details, please contact pkariuki@safaricom.co.ke
 ## Github pages
