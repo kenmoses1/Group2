@@ -3,7 +3,7 @@
 ### The project entails working with nodejs,connecting the server to cloud,creating routes, mongodb compass for database creation 
 ## through the collabolation of team members on github.
 
-## Authors
+## Team Members
 1. Moses Ken
 2. Eric Rugendo
 3. Esther Ndunge
