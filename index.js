@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const userRoutes = require('./routes/users');
+const bookRoutes = require('./routes/books');
 
 const connectionString = process.env.mongo_url;
 let options = {
@@ -23,6 +24,8 @@ app.get('/', function (req, res) {
     res.send('Welcome to Group2');
 });
 app.use ('/users', userRoutes);
+app.use('/books', bookRoutes);
+
 app.listen(3000, () => {
     console.log(`Server Started at ${3000}`);
 });

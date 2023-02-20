@@ -6,4 +6,4 @@ const bookModel = new mongoose.Schema({
     publisher:{required:true, type:String}
 });
 
-module.exports = mongoose.model('users', userModel);
+module.exports = mongoose.model('books', bookModel);
