@@ -35,5 +35,5 @@
 
 *This project uses ISC license.*
 
-Copyright (c) 2023 **YOUR NAME HERE**
+Copyright (c) 2023 **Moses Ken**
 
