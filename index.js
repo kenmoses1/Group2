@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 const userRoutes = require('./routes/users');
 
 const connectionString = process.env.mongo_url;
-console.log(connectionString)
 let options = {
     family : 4
  };
