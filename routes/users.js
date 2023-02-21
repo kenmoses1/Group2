@@ -22,6 +22,7 @@ router.post('/', async function (req, res) {
    
 });
 
+
 router.get('/', async function (req, res){
     try {
         const data = await userModel.find();
@@ -32,13 +33,4 @@ router.get('/', async function (req, res){
 
 });
 
-router.delete('/id', async function (req, res){
-    try {
-        const data = await userModel.find();
-        res.status(200).json(data);
-    }catch (error){
-        res.status(404).json({message: error.message});
-    }
-
-});
  module.exports = router;

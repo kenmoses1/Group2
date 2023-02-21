@@ -3,8 +3,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const userRoutes = require('./routes/users');
 
-const connectionString = process.env.mongo_url;
 
+const connectionString = process.env.mongo_url;
 let options = {
     family : 4
  };
@@ -24,6 +24,7 @@ app.get('/', function (req, res) {
     res.send('Welcome to Group2');
 });
 app.use ('/users', userRoutes);
+
 app.listen(3000, () => {
     console.log(`Server Started at ${3000}`);
 });
