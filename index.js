@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
 const userRoutes = require('./routes/users');
 
 
@@ -19,9 +20,10 @@ let options = {
 
 const app = express();
 app.use(express.json());
+app.use(bodyParser.urlencoded({extended: true}));
 
 app.get('/', function (req, res) {
-    res.send('Welcome to Group2');
+    res.sendFile(__dirname + '/html/index.html');
 });
 app.use ('/users', userRoutes);
 
