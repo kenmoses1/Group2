@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const userRoutes = require('./routes/users');
 
-
+const PORT = process.env.PORT;
 const connectionString = process.env.mongo_url;
 let options = {
     family : 4
@@ -18,6 +18,7 @@ let options = {
     console.log('Db connected successfully');
  });
 
+
 const app = express();
 app.use(express.json());
 app.use(bodyParser.urlencoded({extended: true}));
@@ -27,6 +28,6 @@ app.get('/', function (req, res) {
 });
 app.use ('/users', userRoutes);
 
-app.listen(3000, () => {
-    console.log(`Server Started at ${3000}`);
+app.listen(PORT, () => {
+    console.log(`Server Started at ${PORT}`);
 });
